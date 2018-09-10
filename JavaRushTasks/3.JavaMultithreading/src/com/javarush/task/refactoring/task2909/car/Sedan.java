@@ -1,0 +1,17 @@
+package com.javarush.task.refactoring.task2909.car;
+
+/**
+ * Created by Alexander on 12.02.2018.
+ */
+public class Sedan extends Car {
+    public static final int MAX_SEDAN_SPEED = 120;
+
+    public Sedan(int numberOfPassengers) {
+        super(1, numberOfPassengers);
+    }
+
+    @Override
+    public int getMaxSpeed() {
+        return MAX_SEDAN_SPEED;
+    }
+}
